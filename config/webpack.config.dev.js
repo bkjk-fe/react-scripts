@@ -27,6 +27,7 @@ const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin-alt')
 const typescriptFormatter = require('react-dev-utils/typescriptFormatter');
 // @remove-on-eject-begin
 const getCacheIdentifier = require('react-dev-utils/getCacheIdentifier');
+const StyleLintPlugin = require('stylelint-webpack-plugin');
 // @remove-on-eject-end
 
 // Webpack uses `publicPath` to determine where the app is being served from.
@@ -406,6 +407,14 @@ module.exports = {
     new HtmlWebpackPlugin({
       inject: true,
       template: paths.appHtml,
+    }),
+    new StyleLintPlugin({
+      // context: "app",
+      configFile: './stylelint.js',
+      files: '**/*.(css|scss)',
+      // failOnError: false,
+      // quiet: true,
+      syntax: 'scss'
     }),
     // Makes some environment variables available in index.html.
     // The public URL is available as %PUBLIC_URL% in index.html, e.g.:
