@@ -1,6 +1,5 @@
 {
   "_from": "@bkjk/react-scripts@2.1.41",
-  "_id": "@bkjk/react-scripts@2.1.41",
   "_inBundle": false,
   "_integrity": "sha512-K6odhIaoDhYbrCTn3TK/R5xCSCYK8pHLpcnhp+CBTN0ujLiP9DjqwfMLCLkin+bpPWV3I04RgIs/Z04pxO2ukw==",
   "_location": "/@bkjk/react-scripts",
@@ -23,10 +22,7 @@
   "_resolved": "https://registry.npmjs.org/@bkjk/react-scripts/-/react-scripts-2.1.41.tgz",
   "_shasum": "7dd41cd6e0175df2d076ebc8b1f91cc2b4e2f2ce",
   "_spec": "@bkjk/react-scripts@2.1.41",
-  "_where": "/Users/david/Projects/rs",
-  "author": {
-    "name": "bkjk"
-  },
+  "author": "bkjk",
   "bin": {
     "react-scripts": "./bin/react-scripts.js"
   },
