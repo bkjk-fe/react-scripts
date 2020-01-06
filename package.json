@@ -1,5 +1,5 @@
 {
-  "_from": "@bkjk/react-scripts@2.1.41",
+  "_from": "@bkjk/react-scripts@2.1.42",
   "_inBundle": false,
   "_integrity": "sha512-K6odhIaoDhYbrCTn3TK/R5xCSCYK8pHLpcnhp+CBTN0ujLiP9DjqwfMLCLkin+bpPWV3I04RgIs/Z04pxO2ukw==",
   "_location": "/@bkjk/react-scripts",
@@ -7,21 +7,21 @@
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "@bkjk/react-scripts@2.1.41",
+    "raw": "@bkjk/react-scripts@2.1.42",
     "name": "@bkjk/react-scripts",
     "escapedName": "@bkjk%2freact-scripts",
     "scope": "@bkjk",
-    "rawSpec": "2.1.41",
+    "rawSpec": "2.1.42",
     "saveSpec": null,
-    "fetchSpec": "2.1.41"
+    "fetchSpec": "2.1.42"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@bkjk/react-scripts/-/react-scripts-2.1.41.tgz",
+  "_resolved": "https://registry.npmjs.org/@bkjk/react-scripts/-/react-scripts-2.1.42.tgz",
   "_shasum": "7dd41cd6e0175df2d076ebc8b1f91cc2b4e2f2ce",
-  "_spec": "@bkjk/react-scripts@2.1.41",
+  "_spec": "@bkjk/react-scripts@2.1.42",
   "author": "bkjk",
   "bin": {
     "react-scripts": "./bin/react-scripts.js"
@@ -132,5 +132,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "types": "./lib/react-app.d.ts",
-  "version": "2.1.41"
+  "version": "2.1.42"
 }
